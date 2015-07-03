@@ -90,13 +90,12 @@ def middle(input_list):
 
 
 def inner_four(input_list):
-    # fixed
     """
     Return the third, fourth, fifth, and sixth elements of the input list.
     [ A, B, C, D, E, F, G ] --> [ C, D, E, F ]
     """
 
-    return input_list[2:4]
+    return input_list[2:6]
 
 
 def inner_four_end(input_list):
